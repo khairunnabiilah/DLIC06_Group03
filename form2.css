@@ -1,0 +1,183 @@
+body {
+  background: 	#b8860b;
+}
+
+h1 {
+  background-color: #191970;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 a {
+  font-size: 20px;
+}
+
+.ticket{
+  width:280px;
+  padding:40px;
+  margin:50px auto;
+  background: #191970;
+  position:relative;
+}
+
+.top-left{
+  float:left;
+  font-family: courier;
+}
+
+.top-center{
+  text-align:center;
+  font-family:'Yeseva One';
+  font-size:26px;
+}
+
+.top-right{
+  float:right;
+  font-family: courier;
+}
+
+
+h2{
+  font-family: 'Raleway';
+  font-weight: 800;
+  letter-spacing: 20px;
+  font-size:70px;
+  text-align:center;
+  margin-top:0;
+  margin-bottom:0;
+  color: 	#f0e68c;
+}
+
+p {
+  color: 	#f0fff0;
+}
+
+.for-the-ceremony{
+  text-align:center;
+  font-family:Aldhabi;
+  text-transform:uppercase;
+  margin-top:0;
+  font-size:12px;
+  letter-spacing:1px;
+}
+
+.on-the-date{
+  font-family: serif;
+  font-size:8px;
+  text-transform:uppercase;
+  display:inline-block;
+  width:30%;
+  letter-spacing:2px;
+  vertical-align: bottom;
+  color: 	#fffaf0;
+}
+
+.names, .attend {
+  color: 		#fffaf0;
+}
+
+.ceremony-date{
+  border-bottom:1px solid 		#f0e68c;
+  display:inline-block;
+  width:70%;
+}
+
+.ceremony-date date{
+  color:	#f0e68c;
+  text-transform: uppercase;
+  font-family: courier;
+  letter-spacing: 4px;
+  display:block;
+}
+
+.table{
+    font-family: 'Raleway';
+    font-size: 8px;
+    border:1px solid 		#f0e68c;
+    margin-top:20px;
+    text-transform:uppercase;
+  letter-spacing:1px;
+  border-collapse: collapse;
+}
+
+
+td{
+  padding:5px;
+}
+
+.td-name{
+  padding: 0;
+  color: 		#f0e68c;
+}
+
+.td-name input{
+  padding: 8px 5px;
+  width: 160px;
+}
+.td-name input:focus{
+  background: 		#f0e68c;
+  outline: none;
+}
+
+.td-attending{
+  text-align: center;
+}
+
+.table tr{
+  border-bottom: 1px solid 	#f0e68c;
+  height:30px;
+}
+
+.table td{
+  border-right:1px solid 		#f0e68c;
+}
+
+
+.names{
+  width:60%;
+}
+
+.attend{
+  text-align:center;
+  width:20%;
+}
+
+input{
+  background: none;
+  border: none;
+  width: 100%;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"] + label {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+    font-size: 18px;
+
+}
+input[type="checkbox"]:checked + label:after {
+    content: "\2713";
+}
+
+button{
+  color: #b8860b;
+  background: #191970;
+  padding: 5px;
+  border: 3px solid #191970;
+  border-radius: 5px;
+  cursor: pointer;
+  align-content: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}

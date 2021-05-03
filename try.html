@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>RSVP Form</title>
+    <link rel="stylesheet" href="try.css">
+    <script src="try.js">
+
+    </script>
+  </head>
+  <body>
+    <h1> Corporate Invitation Cards <br> <a href="Homepage.html">Home</a> <a href="card.html">Card 1</a>  <a href="card2.html">Card 2</a> </h1>
+
+    <div class="back">
+
+      <form>
+        <h2>Fill in for RSVP!</h2>
+
+        <label>Name:</label>
+        <input type="text" id="inName" placeholder="">
+
+        <label>Contact number:</label>
+        <input type="text" id="inContact" placeholder="">
+
+        <label>Are you coming:</label>
+
+        <select id="inComing">
+          <option value="Coming">Coming</option>
+          <option value="Notcoming">Decline</option>
+        </select> <br>
+
+
+      <br>  <label for="quantity">Do you bring other people?</label>
+        <select class="inSelect" name="inBring">
+          <option value="">Yes</option>
+            <option value="">No</option>
+        </select>
+         <input type="number" id="inBring" name="quantity" min="0" max="5">
+ <br>
+         <p>Additional information:</p>
+           <input type="text" id="inAdd" placeholder="Add information" accept="image/*">
+
+<button onclick="submit()" id="Submit">Submit</button>
+      </form>
+
+
+      <div class="container">
+
+        <div class="ticket golden" id="result">
+          <header id="head">
+              <div class="ticketHead"></div>
+              <h4>You're invited</h4>
+              <span>To Golf Fundraising Tournament</span>
+
+          </header>
+
+  <div class="ticketsubhead">Name:</div>
+
+        </div>
+        <div class="content">
+          <ul>
+            <li id="name"></li>
+              <li id="contact"></li>
+                <li id="coming"></li>
+                  <li id="bring"></li>
+                  <li id="num"></li>
+</ul>
+
+
+
+</div>
+
+<button class="btn">Download</button>
+
+
+
+
+
+  </body>
+</html>
+
+<!--Reference: https://github.com/ScriptyDude/Student-Card-Generator/blob/master/index.html & https://github.com/ScriptyDude/Student-Card-Generator/blob/master/style.css-->
